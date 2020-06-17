@@ -9,7 +9,7 @@ You can use this airplane shaped badge as an anetenna to locate real airplanes t
 ## Arduino Programming
 Add the correct Boards Manger URL:
 
-    - [File->Preferences add](http://drazzy.com/package_drazzy.com_index.json)
+    - Under File->Preferences add the following URL http://drazzy.com/package_drazzy.com_index.json
     - Then with the new Boards Manger options select ATTinyCore
 
 Steps:
