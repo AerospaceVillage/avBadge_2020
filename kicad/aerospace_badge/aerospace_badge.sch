@@ -1,0 +1,568 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Aerospace Village Badge 2020"
+Date "2020-06-15"
+Rev "v02"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Author: Dan Allen"
+$EndDescr
+$Comp
+L MCU_Microchip_ATtiny:ATtiny85-20SU U1
+U 1 1 5EDBB1CC
+P 3300 3100
+F 0 "U1" H 2771 3146 50  0000 R CNN
+F 1 "ATtiny85-20SU" H 2771 3055 50  0000 R CNN
+F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 3300 3100 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 3300 3100 50  0001 C CNN
+	1    3300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J1
+U 1 1 5EDBBBF4
+P 4650 4100
+F 0 "J1" H 4700 4417 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 4700 4326 50  0000 C CNN
+F 2 "aerospace_badge:isp_pad" H 4650 4100 50  0001 C CNN
+F 3 "~" H 4650 4100 50  0001 C CNN
+	1    4650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5EDBC3F4
+P 1700 4700
+F 0 "BT1" H 1818 4796 50  0000 L CNN
+F 1 "Battery_Cell" H 1818 4705 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_3034_1x20mm" V 1700 4760 50  0001 C CNN
+F 3 "~" V 1700 4760 50  0001 C CNN
+	1    1700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5EDBCB31
+P 6800 2500
+F 0 "R2" H 6870 2546 50  0000 L CNN
+F 1 "330" H 6870 2455 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_3216Metric" V 6730 2500 50  0001 C CNN
+F 3 "~" H 6800 2500 50  0001 C CNN
+	1    6800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5EDBCED5
+P 6850 4450
+F 0 "D1" V 6889 4332 50  0000 R CNN
+F 1 "LED" V 6798 4332 50  0000 R CNN
+F 2 "sunled:XZDGK45WT-9" H 6850 4450 50  0001 C CNN
+F 3 "~" H 6850 4450 50  0001 C CNN
+	1    6850 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5EDBEBD8
+P 6800 2950
+F 0 "D2" H 6793 3167 50  0000 C CNN
+F 1 "LED" H 6793 3076 50  0000 C CNN
+F 2 "sunled:XZDGK45WT-9" H 6800 2950 50  0001 C CNN
+F 3 "~" H 6800 2950 50  0001 C CNN
+	1    6800 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5EDBEFF0
+P 8500 2950
+F 0 "D5" H 8493 3167 50  0000 C CNN
+F 1 "LED" H 8493 3076 50  0000 C CNN
+F 2 "aerospace_badge:led_in-s124ar" H 8500 2950 50  0001 C CNN
+F 3 "~" H 8500 2950 50  0001 C CNN
+	1    8500 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5EDBF22A
+P 8200 2950
+F 0 "D4" H 8193 3167 50  0000 C CNN
+F 1 "LED" H 8193 3076 50  0000 C CNN
+F 2 "aerospace_badge:led_in-s124ar" H 8200 2950 50  0001 C CNN
+F 3 "~" H 8200 2950 50  0001 C CNN
+	1    8200 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5EDBF560
+P 7300 2950
+F 0 "D3" H 7293 3167 50  0000 C CNN
+F 1 "LED" H 7293 3076 50  0000 C CNN
+F 2 "sunled:XZDGK45WT-9" H 7300 2950 50  0001 C CNN
+F 3 "~" H 7300 2950 50  0001 C CNN
+	1    7300 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5EDBF85D
+P 8500 2500
+F 0 "R5" H 8570 2546 50  0000 L CNN
+F 1 "330" H 8570 2455 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_3216Metric" V 8430 2500 50  0001 C CNN
+F 3 "~" H 8500 2500 50  0001 C CNN
+	1    8500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5EDBFA81
+P 8200 2500
+F 0 "R4" H 8270 2546 50  0000 L CNN
+F 1 "330" H 8270 2455 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_3216Metric" V 8130 2500 50  0001 C CNN
+F 3 "~" H 8200 2500 50  0001 C CNN
+	1    8200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5EDBFC67
+P 7300 2500
+F 0 "R3" H 7370 2546 50  0000 L CNN
+F 1 "330" H 7370 2455 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_3216Metric" V 7230 2500 50  0001 C CNN
+F 3 "~" H 7300 2500 50  0001 C CNN
+	1    7300 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5EDBFE63
+P 6850 4050
+F 0 "R1" H 6920 4096 50  0000 L CNN
+F 1 "330" H 6920 4005 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206_3216Metric" V 6780 4050 50  0001 C CNN
+F 3 "~" H 6850 4050 50  0001 C CNN
+	1    6850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J3
+U 1 1 5EDBD76D
+P 8500 5500
+F 0 "J3" H 8608 5681 50  0000 C CNN
+F 1 "Conn_01x01_Male" V 8450 5500 50  0000 C CNN
+F 2 "aerospace_badge:badge" H 8500 5500 50  0001 C CNN
+F 3 "~" H 8500 5500 50  0001 C CNN
+	1    8500 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8500 2650 8500 2800
+Wire Wire Line
+	8200 2650 8200 2800
+Wire Wire Line
+	7300 2650 7300 2800
+Wire Wire Line
+	6800 2650 6800 2800
+Wire Wire Line
+	6850 4200 6850 4300
+$Comp
+L power:GND #PWR0101
+U 1 1 5EDF36CF
+P 8500 3250
+F 0 "#PWR0101" H 8500 3000 50  0001 C CNN
+F 1 "GND" H 8505 3077 50  0000 C CNN
+F 2 "" H 8500 3250 50  0001 C CNN
+F 3 "" H 8500 3250 50  0001 C CNN
+	1    8500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5EDF394F
+P 6850 4800
+F 0 "#PWR0102" H 6850 4550 50  0001 C CNN
+F 1 "GND" H 6855 4627 50  0000 C CNN
+F 2 "" H 6850 4800 50  0001 C CNN
+F 3 "" H 6850 4800 50  0001 C CNN
+	1    6850 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2350 7050 2350
+Wire Wire Line
+	8200 2350 8350 2350
+Wire Wire Line
+	6050 2900 6050 3900
+Wire Wire Line
+	6050 3900 6850 3900
+Wire Wire Line
+	3900 3100 4100 3100
+Wire Wire Line
+	4100 3100 4100 2300
+Wire Wire Line
+	4100 2300 7050 2300
+Wire Wire Line
+	7050 2300 7050 2350
+Connection ~ 7050 2350
+Wire Wire Line
+	7050 2350 6800 2350
+Wire Wire Line
+	3900 3200 4150 3200
+Wire Wire Line
+	4150 3200 4150 2250
+Wire Wire Line
+	8350 2250 8350 2350
+Connection ~ 8350 2350
+Wire Wire Line
+	8350 2350 8500 2350
+$Comp
+L power:GND #PWR0103
+U 1 1 5EDFCBE6
+P 3300 3900
+F 0 "#PWR0103" H 3300 3650 50  0001 C CNN
+F 1 "GND" H 3305 3727 50  0000 C CNN
+F 2 "" H 3300 3900 50  0001 C CNN
+F 3 "" H 3300 3900 50  0001 C CNN
+	1    3300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5EDFD319
+P 3300 2300
+F 0 "#PWR0104" H 3300 2150 50  0001 C CNN
+F 1 "VCC" H 3315 2473 50  0000 C CNN
+F 2 "" H 3300 2300 50  0001 C CNN
+F 3 "" H 3300 2300 50  0001 C CNN
+	1    3300 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 3700 3300 3900
+$Comp
+L power:GND #PWR0105
+U 1 1 5EDFF512
+P 1700 4950
+F 0 "#PWR0105" H 1700 4700 50  0001 C CNN
+F 1 "GND" H 1705 4777 50  0000 C CNN
+F 2 "" H 1700 4950 50  0001 C CNN
+F 3 "" H 1700 4950 50  0001 C CNN
+	1    1700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5EE05FC3
+P 7700 5500
+F 0 "J2" H 7618 5175 50  0000 C CNN
+F 1 "Conn_01x02" H 7618 5266 50  0000 C CNN
+F 2 "aerospace_badge:linx_sma_jack_female_socket" H 7700 5500 50  0001 C CNN
+F 3 "~" H 7700 5500 50  0001 C CNN
+	1    7700 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7900 5500 8300 5500
+$Comp
+L power:GND #PWR0107
+U 1 1 5EE07D4D
+P 8050 5400
+F 0 "#PWR0107" H 8050 5150 50  0001 C CNN
+F 1 "GND" H 8055 5227 50  0000 C CNN
+F 2 "" H 8050 5400 50  0001 C CNN
+F 3 "" H 8050 5400 50  0001 C CNN
+	1    8050 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 5400 8050 5400
+Text Notes 7550 5100 0    50   ~ 0
+SMA Internal ADS-B Connection
+Text Notes 6300 4500 0    50   ~ 0
+Flightdeck\nYellow
+Wire Wire Line
+	4150 2250 8350 2250
+$Comp
+L power:GND #PWR0108
+U 1 1 5EE0F890
+P 7300 3250
+F 0 "#PWR0108" H 7300 3000 50  0001 C CNN
+F 1 "GND" H 7305 3077 50  0000 C CNN
+F 2 "" H 7300 3250 50  0001 C CNN
+F 3 "" H 7300 3250 50  0001 C CNN
+	1    7300 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 3100 7300 3250
+Text Notes 6850 2200 0    50   ~ 0
+Navigation
+Text Notes 8200 2200 0    50   ~ 0
+Anti-Collision\nWhite
+Text Notes 4550 3750 0    50   ~ 0
+AVR ISP
+$Comp
+L power:VCC #PWR0109
+U 1 1 5EE17FF2
+P 4350 4100
+F 0 "#PWR0109" H 4350 3950 50  0001 C CNN
+F 1 "VCC" H 4365 4273 50  0000 C CNN
+F 2 "" H 4350 4100 50  0001 C CNN
+F 3 "" H 4350 4100 50  0001 C CNN
+	1    4350 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5EE18658
+P 5050 4000
+F 0 "#PWR0110" H 5050 3750 50  0001 C CNN
+F 1 "GND" H 5055 3827 50  0000 C CNN
+F 2 "" H 5050 4000 50  0001 C CNN
+F 3 "" H 5050 4000 50  0001 C CNN
+	1    5050 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 4000 5050 4000
+Wire Wire Line
+	4950 4100 5300 4100
+Wire Wire Line
+	5300 4100 5300 4450
+Wire Wire Line
+	5300 4450 3900 4450
+Wire Wire Line
+	3900 3300 3900 4450
+Wire Wire Line
+	3900 3000 3950 3000
+Wire Wire Line
+	4250 3000 4250 3300
+Wire Wire Line
+	4250 3300 4050 3300
+Wire Wire Line
+	4050 3300 4050 4200
+Wire Wire Line
+	4050 4200 4450 4200
+Wire Wire Line
+	3900 2800 4000 2800
+Wire Wire Line
+	5450 2800 5450 4200
+Wire Wire Line
+	5450 4200 4950 4200
+Wire Wire Line
+	3900 2900 4400 2900
+Wire Wire Line
+	4400 2900 4400 4000
+Wire Wire Line
+	4400 4000 4450 4000
+Connection ~ 4400 2900
+Wire Wire Line
+	4400 2900 6050 2900
+Wire Wire Line
+	3300 2500 3300 2400
+Wire Wire Line
+	6850 4600 6850 4800
+Wire Wire Line
+	8500 3100 8500 3250
+$Comp
+L power:GND #PWR0111
+U 1 1 5EDD89C2
+P 8200 3250
+F 0 "#PWR0111" H 8200 3000 50  0001 C CNN
+F 1 "GND" H 8205 3077 50  0000 C CNN
+F 2 "" H 8200 3250 50  0001 C CNN
+F 3 "" H 8200 3250 50  0001 C CNN
+	1    8200 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3100 8200 3250
+Wire Wire Line
+	4450 4100 4350 4100
+$Comp
+L power:GND #PWR0112
+U 1 1 5EDDD9A2
+P 6800 3250
+F 0 "#PWR0112" H 6800 3000 50  0001 C CNN
+F 1 "GND" H 6805 3077 50  0000 C CNN
+F 2 "" H 6800 3250 50  0001 C CNN
+F 3 "" H 6800 3250 50  0001 C CNN
+	1    6800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3100 6800 3250
+Wire Wire Line
+	1700 4800 1700 4950
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EDE2277
+P 1350 4300
+F 0 "#FLG0101" H 1350 4375 50  0001 C CNN
+F 1 "PWR_FLAG" H 1200 4500 50  0000 C CNN
+F 2 "" H 1350 4300 50  0001 C CNN
+F 3 "~" H 1350 4300 50  0001 C CNN
+	1    1350 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 4500 1350 4300
+Connection ~ 1700 4500
+Wire Wire Line
+	1700 4500 1700 4300
+$Comp
+L power:VCC #PWR0106
+U 1 1 5EE0042C
+P 1700 4300
+F 0 "#PWR0106" H 1700 4150 50  0001 C CNN
+F 1 "VCC" H 1715 4473 50  0000 C CNN
+F 2 "" H 1700 4300 50  0001 C CNN
+F 3 "" H 1700 4300 50  0001 C CNN
+	1    1700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5EDE36CB
+P 1350 5000
+F 0 "#FLG0102" H 1350 5075 50  0001 C CNN
+F 1 "PWR_FLAG" H 1350 5173 50  0000 C CNN
+F 2 "" H 1350 5000 50  0001 C CNN
+F 3 "~" H 1350 5000 50  0001 C CNN
+	1    1350 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 4800 1350 4800
+Wire Wire Line
+	1350 4800 1350 5000
+Connection ~ 1700 4800
+Wire Wire Line
+	1350 4500 1700 4500
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5EDC5AF4
+P 8450 4300
+F 0 "J4" H 8368 3975 50  0000 C CNN
+F 1 "Conn_01x02" H 8368 4066 50  0000 C CNN
+F 2 "aerospace_badge:linx_sma_jack_female_socket" H 8450 4300 50  0001 C CNN
+F 3 "~" H 8450 4300 50  0001 C CNN
+	1    8450 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5EDC5DAB
+P 8800 4200
+F 0 "#PWR01" H 8800 3950 50  0001 C CNN
+F 1 "GND" H 8805 4027 50  0000 C CNN
+F 2 "" H 8800 4200 50  0001 C CNN
+F 3 "" H 8800 4200 50  0001 C CNN
+	1    8800 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8650 4200 8800 4200
+Wire Wire Line
+	8650 4300 9050 4300
+Wire Wire Line
+	3950 3000 3950 5200
+Wire Wire Line
+	3950 5200 4600 5200
+Connection ~ 3950 3000
+Wire Wire Line
+	3950 3000 4250 3000
+Wire Wire Line
+	4000 2800 4000 5300
+Wire Wire Line
+	4000 5300 4600 5300
+Connection ~ 4000 2800
+Wire Wire Line
+	4000 2800 5450 2800
+$Comp
+L power:GND #PWR0113
+U 1 1 5EDDD238
+P 4400 5400
+F 0 "#PWR0113" H 4400 5150 50  0001 C CNN
+F 1 "GND" H 4405 5227 50  0000 C CNN
+F 2 "" H 4400 5400 50  0001 C CNN
+F 3 "" H 4400 5400 50  0001 C CNN
+	1    4400 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 5400 4600 5400
+$Comp
+L Connector:Conn_01x01_Male J7
+U 1 1 5EE84E16
+P 9450 4200
+F 0 "J7" H 9558 4381 50  0000 C CNN
+F 1 "Conn_01x01_Male" V 9400 4200 50  0000 C CNN
+F 2 "aerospace_badge:wire_terminal_sr99s01" H 9450 4200 50  0001 C CNN
+F 3 "~" H 9450 4200 50  0001 C CNN
+	1    9450 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J6
+U 1 1 5EE85F40
+P 9200 4650
+F 0 "J6" H 9308 4831 50  0000 C CNN
+F 1 "Conn_01x01_Male" V 9150 4650 50  0000 C CNN
+F 2 "aerospace_badge:wire_terminal_sr99s01" H 9200 4650 50  0001 C CNN
+F 3 "~" H 9200 4650 50  0001 C CNN
+	1    9200 4650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9050 4300 9050 4200
+Wire Wire Line
+	9050 4200 9250 4200
+Wire Wire Line
+	9050 4300 9200 4300
+Wire Wire Line
+	9200 4300 9200 4450
+Connection ~ 9050 4300
+Text Notes 8350 3850 0    50   ~ 0
+SMA ACARS Antenna Connections
+$Comp
+L Connector_Generic:Conn_01x04 J5
+U 1 1 5EEA3870
+P 4800 5300
+F 0 "J5" H 4880 5292 50  0000 L CNN
+F 1 "Conn_01x04" H 4880 5201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4800 5300 50  0001 C CNN
+F 3 "~" H 4800 5300 50  0001 C CNN
+	1    4800 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2400 2000 2400
+Wire Wire Line
+	2000 2400 2000 4150
+Wire Wire Line
+	2000 4150 2800 4150
+Wire Wire Line
+	2800 5500 4600 5500
+Wire Wire Line
+	2800 4150 2800 5500
+Connection ~ 3300 2400
+Wire Wire Line
+	3300 2400 3300 2300
+Text Notes 7350 2850 0    50   ~ 0
+RED
+Text Notes 6500 2850 0    50   ~ 0
+GREEN
+$EndSCHEMATC
