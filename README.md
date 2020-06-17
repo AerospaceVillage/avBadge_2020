@@ -1,5 +1,4 @@
-# avBadge_2020
-Aerospace Village Badge 2020
+# Aerospace Village Badge 2020
 
 This resository is to document and capture all of teh engineering and desing work that went into creating the Aerospace Village Badge for 2020.
 
