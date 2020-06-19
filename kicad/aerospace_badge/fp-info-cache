@@ -1,4 +1,4 @@
-2291608677793613
+2293201251853613
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6820,6 +6820,13 @@ SMD Shunt Resistor
 aerospace_badge
 badge
 Imported from /home/dan/Desktop/aerospaceBadge/boeing787.svg
+svg2mod
+0
+2
+1
+aerospace_badge
+badge_v02
+Imported from Images/boeing787.svg
 svg2mod
 0
 2
