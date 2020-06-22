@@ -5,12 +5,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Aerospace Village Badge 2020"
-Date "2020-06-17"
+Date "2020-06-22"
 Rev "v02"
 Comp ""
 Comment1 ""
 Comment2 ""
-Comment3 ""
+Comment3 "aerospacevillage.org"
 Comment4 "Author: Dan Allen"
 $EndDescr
 $Comp
