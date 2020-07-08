@@ -1,13 +1,17 @@
 # Aerospace Village Badge 2020
 
-This resository is to document and capture all of teh engineering and desing work that went into creating the Aerospace Village Badge for 2020.
+This resository is to document and capture all of the engineering and design work that went into creating the Aerospace Village Badge for 2020.
 
-The badge is a multifunctional design that is part SWAG, part antenna, part low level protocol interaction. In keeping with the spirit of aviation everything is as small as possible and tries to use as much of teh available resources as possible.
+The badge is a multifunctional design that is part SWAG, part antenna, part low level protocol interaction. In keeping with the spirit of aviation everything is as small as possible and tries to use as much of the available resources as possible.
 
-You can use this airplane shaped badge as an anetenna to locate real airplanes transmitting ADS-B. You can also use it to capture ACARS data. In addition you can connect to it with your preferred I2C device ([bus pirate](https://learn.sparkfun.com/tutorials/bus-pirate-v36a-hookup-guide/all#introduction)) and control each of the available lighting packages. You can also just wear it and look cool.
+You can even use this airplane shaped badge as an anetenna to locate real airplanes transmitting ADS-B. Additionally, you can also use it to capture data from other freqenices (i.e. ACARS) using the built in SMA to wire terminal blocks. Why stop there? You can also interact with your preferred I2C device ([bus pirate](https://learn.sparkfun.com/tutorials/bus-pirate-v36a-hookup-guide/all#introduction)) and control each of the available lighting packages. Alternatively, you could just wear it and look cool.
+
+
+<img src="/Images/aerospace_Badge_day.GIF" width="300" /> <img src="/Images/aerospace_Badge_night.GIF" width="300" />
+
 
 ## Arduino Programming
-Add the correct Boards Manger URL:
+Using the Arduino IDE Add the correct Boards Manger URL:
 
     - Under File->Preferences add the following URL http://drazzy.com/package_drazzy.com_index.json
     - Then with the new Boards Manger options select ATTinyCore
@@ -32,4 +36,4 @@ $ sudo chmod a+rw /dev/ttyACM0
 ```
 
 ## Hardware
-The ATTin85 is programmed with the [Sparkfun Tiny AVR Programmer](https://www.sparkfun.com/products/11801) using the [SparkFun ISP Pogo Adapter](https://www.sparkfun.com/products/11591)
+The ATtiny85 is programmed with the [Sparkfun Tiny AVR Programmer](https://www.sparkfun.com/products/11801) using the [SparkFun ISP Pogo Adapter](https://www.sparkfun.com/products/11591)
