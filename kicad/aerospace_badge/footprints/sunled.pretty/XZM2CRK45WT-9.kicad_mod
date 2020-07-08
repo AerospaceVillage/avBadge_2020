@@ -1,12 +1,12 @@
-(module XZDGK45WT-9 (layer F.Cu) (tedit 5EEA6C83)
+(module XZM2CRK45WT-9 (layer F.Cu) (tedit 5EEA6DAB)
   (fp_text reference REF** (at 5.10286 -0.32512 270) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value XZDGK45WT-9 (at 0.66802 -2.89052) (layer B.Fab) hide
+  (fp_text value XZM2CRK45WT-9 (at 0.66802 -2.89052) (layer B.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_circle (center -3.69824 1.5621) (end -3.49824 1.5621) (layer F.SilkS) (width 0.4))
+  (fp_circle (center 3.64744 -1.44018) (end 3.84744 -1.44018) (layer F.SilkS) (width 0.4))
   (fp_circle (center -0.01524 0.14214) (end 0.78476 0.14214) (layer F.Mask) (width 1.6))
-  (pad 1 smd rect (at -2.6 0) (size 1.4 2.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.6 0) (size 1.4 2.6) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -2.6 0) (size 1.4 2.6) (layers F.Cu F.Paste F.Mask))
 )

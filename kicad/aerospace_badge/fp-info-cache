@@ -1,4 +1,4 @@
-2288418865450613
+2294794510939613
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6825,6 +6825,13 @@ svg2mod
 2
 1
 aerospace_badge
+badge_v02
+Imported from Images/boeing787.svg
+svg2mod
+0
+2
+1
+aerospace_badge
 defconLogo
 
 
@@ -6852,6 +6859,13 @@ linx_sma_jack_female_socket
 0
 5
 2
+aerospace_badge
+switch_JS202011SCQN
+
+
+0
+6
+6
 aerospace_badge
 wire_terminal_sr99s01
 
@@ -10109,6 +10123,20 @@ Zigbee_Module_MRF24J40MD
 12
 sunled
 XZDGK45WT-9
+
+
+0
+2
+2
+sunled
+XZM2CRK45WT-9
+
+
+0
+2
+2
+sunled
+XZMYK45WT-9
 
 
 0

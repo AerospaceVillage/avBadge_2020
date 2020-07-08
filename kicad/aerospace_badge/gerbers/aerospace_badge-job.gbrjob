@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.6-c6e7f7d~86~ubuntu18.04.1"
     },
-    "CreationDate":  "2020-06-07T16:50:32-04:00"
+    "CreationDate":  "2020-06-23T08:01:43-04:00"
   },
   "GeneralSpecs":
   {
@@ -15,12 +15,12 @@
     {
       "Name": "aerospace_badge",
       "GUID": "6165726f-7370-4616-9365-5f6261646765",
-      "Revision": "V01"
+      "Revision": "V02"
     },
     "Size":
     {
-      "X": 0.000,
-      "Y": 0.000
+      "X": 134.578,
+      "Y": 140.277
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600

@@ -5,12 +5,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Aerospace Village Badge 2020"
-Date "2020-06-15"
+Date "2020-06-22"
 Rev "v02"
 Comp ""
 Comment1 ""
 Comment2 ""
-Comment3 ""
+Comment3 "aerospacevillage.org"
 Comment4 "Author: Dan Allen"
 $EndDescr
 $Comp
@@ -25,10 +25,10 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microc
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Counter_Clockwise J1
+L Connector_Generic:Conn_02x03_Counter_Clockwise J3
 U 1 1 5EDBBBF4
 P 4650 4100
-F 0 "J1" H 4700 4417 50  0000 C CNN
+F 0 "J3" H 4700 4417 50  0000 C CNN
 F 1 "Conn_02x03_Counter_Clockwise" H 4700 4326 50  0000 C CNN
 F 2 "aerospace_badge:isp_pad" H 4650 4100 50  0001 C CNN
 F 3 "~" H 4650 4100 50  0001 C CNN
@@ -38,12 +38,12 @@ $EndComp
 $Comp
 L Device:Battery_Cell BT1
 U 1 1 5EDBC3F4
-P 1700 4700
-F 0 "BT1" H 1818 4796 50  0000 L CNN
-F 1 "Battery_Cell" H 1818 4705 50  0000 L CNN
-F 2 "Battery:BatteryHolder_Keystone_3034_1x20mm" V 1700 4760 50  0001 C CNN
-F 3 "~" V 1700 4760 50  0001 C CNN
-	1    1700 4700
+P 1850 6300
+F 0 "BT1" H 1968 6396 50  0000 L CNN
+F 1 "Battery_Cell" H 1968 6305 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_3034_1x20mm" V 1850 6360 50  0001 C CNN
+F 3 "~" V 1850 6360 50  0001 C CNN
+	1    1850 6300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -63,7 +63,7 @@ U 1 1 5EDBCED5
 P 6850 4450
 F 0 "D1" V 6889 4332 50  0000 R CNN
 F 1 "LED" V 6798 4332 50  0000 R CNN
-F 2 "sunled:XZDGK45WT-9" H 6850 4450 50  0001 C CNN
+F 2 "sunled:XZMYK45WT-9" H 6850 4450 50  0001 C CNN
 F 3 "~" H 6850 4450 50  0001 C CNN
 	1    6850 4450
 	0    -1   -1   0   
@@ -107,7 +107,7 @@ U 1 1 5EDBF560
 P 7300 2950
 F 0 "D3" H 7293 3167 50  0000 C CNN
 F 1 "LED" H 7293 3076 50  0000 C CNN
-F 2 "sunled:XZDGK45WT-9" H 7300 2950 50  0001 C CNN
+F 2 "sunled:XZM2CRK45WT-9" H 7300 2950 50  0001 C CNN
 F 3 "~" H 7300 2950 50  0001 C CNN
 	1    7300 2950
 	0    -1   -1   0   
@@ -157,12 +157,12 @@ F 3 "~" H 6850 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male J3
+L Connector:Conn_01x01_Male J8
 U 1 1 5EDBD76D
 P 8500 5500
-F 0 "J3" H 8608 5681 50  0000 C CNN
+F 0 "J8" H 8608 5681 50  0000 C CNN
 F 1 "Conn_01x01_Male" V 8450 5500 50  0000 C CNN
-F 2 "aerospace_badge:badge" H 8500 5500 50  0001 C CNN
+F 2 "aerospace_badge:badge_v02" H 8500 5500 50  0001 C CNN
 F 3 "~" H 8500 5500 50  0001 C CNN
 	1    8500 5500
 	-1   0    0    1   
@@ -254,19 +254,19 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0105
 U 1 1 5EDFF512
-P 1700 4950
-F 0 "#PWR0105" H 1700 4700 50  0001 C CNN
-F 1 "GND" H 1705 4777 50  0000 C CNN
-F 2 "" H 1700 4950 50  0001 C CNN
-F 3 "" H 1700 4950 50  0001 C CNN
-	1    1700 4950
+P 1850 6550
+F 0 "#PWR0105" H 1850 6300 50  0001 C CNN
+F 1 "GND" H 1855 6377 50  0000 C CNN
+F 2 "" H 1850 6550 50  0001 C CNN
+F 3 "" H 1850 6550 50  0001 C CNN
+	1    1850 6550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J2
+L Connector_Generic:Conn_01x02 J1
 U 1 1 5EE05FC3
 P 7700 5500
-F 0 "J2" H 7618 5175 50  0000 C CNN
+F 0 "J1" H 7618 5175 50  0000 C CNN
 F 1 "Conn_01x02" H 7618 5266 50  0000 C CNN
 F 2 "aerospace_badge:linx_sma_jack_female_socket" H 7700 5500 50  0001 C CNN
 F 3 "~" H 7700 5500 50  0001 C CNN
@@ -405,57 +405,55 @@ $EndComp
 Wire Wire Line
 	6800 3100 6800 3250
 Wire Wire Line
-	1700 4800 1700 4950
+	1850 6400 1850 6550
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5EDE2277
-P 1350 4300
-F 0 "#FLG0101" H 1350 4375 50  0001 C CNN
-F 1 "PWR_FLAG" H 1200 4500 50  0000 C CNN
-F 2 "" H 1350 4300 50  0001 C CNN
-F 3 "~" H 1350 4300 50  0001 C CNN
-	1    1350 4300
+P 1600 5250
+F 0 "#FLG0101" H 1600 5325 50  0001 C CNN
+F 1 "PWR_FLAG" H 1450 5450 50  0000 C CNN
+F 2 "" H 1600 5250 50  0001 C CNN
+F 3 "~" H 1600 5250 50  0001 C CNN
+	1    1600 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 4500 1350 4300
-Connection ~ 1700 4500
+	1600 5450 1600 5250
 Wire Wire Line
-	1700 4500 1700 4300
+	1950 5450 1950 5250
 $Comp
 L power:VCC #PWR0106
 U 1 1 5EE0042C
-P 1700 4300
-F 0 "#PWR0106" H 1700 4150 50  0001 C CNN
-F 1 "VCC" H 1715 4473 50  0000 C CNN
-F 2 "" H 1700 4300 50  0001 C CNN
-F 3 "" H 1700 4300 50  0001 C CNN
-	1    1700 4300
+P 1950 5250
+F 0 "#PWR0106" H 1950 5100 50  0001 C CNN
+F 1 "VCC" H 1965 5423 50  0000 C CNN
+F 2 "" H 1950 5250 50  0001 C CNN
+F 3 "" H 1950 5250 50  0001 C CNN
+	1    1950 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5EDE36CB
-P 1350 5000
-F 0 "#FLG0102" H 1350 5075 50  0001 C CNN
-F 1 "PWR_FLAG" H 1350 5173 50  0000 C CNN
-F 2 "" H 1350 5000 50  0001 C CNN
-F 3 "~" H 1350 5000 50  0001 C CNN
-	1    1350 5000
+P 1500 6600
+F 0 "#FLG0102" H 1500 6675 50  0001 C CNN
+F 1 "PWR_FLAG" H 1500 6773 50  0000 C CNN
+F 2 "" H 1500 6600 50  0001 C CNN
+F 3 "~" H 1500 6600 50  0001 C CNN
+	1    1500 6600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1700 4800 1350 4800
+	1850 6400 1500 6400
 Wire Wire Line
-	1350 4800 1350 5000
-Connection ~ 1700 4800
+	1500 6400 1500 6600
 Wire Wire Line
-	1350 4500 1700 4500
+	1600 5450 1950 5450
 $Comp
-L Connector_Generic:Conn_01x02 J4
+L Connector_Generic:Conn_01x02 J2
 U 1 1 5EDC5AF4
 P 8450 4300
-F 0 "J4" H 8368 3975 50  0000 C CNN
+F 0 "J2" H 8368 3975 50  0000 C CNN
 F 1 "Conn_01x02" H 8368 4066 50  0000 C CNN
 F 2 "aerospace_badge:linx_sma_jack_female_socket" H 8450 4300 50  0001 C CNN
 F 3 "~" H 8450 4300 50  0001 C CNN
@@ -538,10 +536,10 @@ Connection ~ 9050 4300
 Text Notes 8350 3850 0    50   ~ 0
 SMA ACARS Antenna Connections
 $Comp
-L Connector_Generic:Conn_01x04 J5
+L Connector_Generic:Conn_01x04 J4
 U 1 1 5EEA3870
 P 4800 5300
-F 0 "J5" H 4880 5292 50  0000 L CNN
+F 0 "J4" H 4880 5292 50  0000 L CNN
 F 1 "Conn_01x04" H 4880 5201 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4800 5300 50  0001 C CNN
 F 3 "~" H 4800 5300 50  0001 C CNN
@@ -565,4 +563,21 @@ Text Notes 7350 2850 0    50   ~ 0
 RED
 Text Notes 6500 2850 0    50   ~ 0
 GREEN
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 5EF0E98B
+P 1850 5800
+F 0 "SW1" V 1896 5612 50  0000 R CNN
+F 1 "SW_SPDT" V 1805 5612 50  0000 R CNN
+F 2 "aerospace_badge:switch_JS202011SCQN" H 1850 5800 50  0001 C CNN
+F 3 "~" H 1850 5800 50  0001 C CNN
+	1    1850 5800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1850 6400
+Wire Wire Line
+	1850 6100 1850 6000
+Wire Wire Line
+	1950 5600 1950 5450
+Connection ~ 1950 5450
 $EndSCHEMATC
