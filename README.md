@@ -1,6 +1,6 @@
 # Aerospace Village Badge 2020
 
-This resository is to document and capture all of the engineering and design work that went into creating the Aerospace Village Badge for 2020.
+This resository is to document and capture all of the engineering and design work that went into creating the [Aerospace Village](https://aerospacevillage.org) Badge for 2020.
 
 The badge is a multifunctional design that is part SWAG, part antenna, part low level protocol interaction. In keeping with the spirit of aviation everything is as small as possible and tries to use as much of the available resources as possible.
 
