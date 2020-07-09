@@ -11,10 +11,10 @@ You can even use this airplane shaped badge as an anetenna to locate real airpla
 
 
 ## Arduino Programming
-Using the Arduino IDE Add the correct Boards Manger URL:
+Using the Arduino IDE Add the correct Boards Manager URL:
 
     - Under File->Preferences add the following URL http://drazzy.com/package_drazzy.com_index.json
-    - Then with the new Boards Manger options select ATTinyCore
+    - Then with the new Boards Maanger options select ATTinyCore
 
 Steps:
 
