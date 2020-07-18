@@ -48,16 +48,17 @@ const int anti_collision_ON_TIME = 40;
 const int anti_collision_OFF_TIME = 1800;
 boolean anti_collision_ON_STATE = true;
 
-char title[9] = "Aerospace";
-int title_index = 0;
+char msg[154] = "Aerospace Village\n\nBUILD - INSPIRE - PROMOTE\n\n Send us an email at village@aerospacevillage.org with the subject badge and tell us what you thought!";
+int msg_len = 154;
+int msg_index = 0;
 
 
 void requestEvent()
 {
-  TinyWireS.send(byte(title[title_index]));
-  title_index++;
-  if(title_index > 9){
-    title_index = 0;
+    TinyWireS.send(byte(msg[msg_index]));
+  msg_index++;
+  if(msg_index > msg_len){
+    msg_index = 0;
   }
 }
 
