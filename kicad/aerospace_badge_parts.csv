@@ -1,0 +1,11 @@
+Reference, Value,Notes, Footprint
+BT1,Battery_Cell,,Battery:BatteryHolder_Keystone_3034_1x20mm
+D1,LED,Yellow - Flightdeck ,sunled:XZMYK45WT-9
+D2,LED,Green – Navigation,sunled:XZDGK45WT-9
+D3,LED,Red – Navigation,sunled:XZM2CRK45WT-9
+D4-D5,LED,Anti-Collision White,aerospace_badge:led_in-s124ar
+J1-J2,Conn_01x02,SMA Connector,aerospace_badge:linx_sma_jack_female_socket
+J6-J7,Conn_01x01_Male,Wire Terminal push button,aerospace_badge:wire_terminal_sr99s01
+R1-R5,330 Ohms,Resistor,Resistors_SMD:R_1206_3216Metric
+SW1,SW_SPDT,Power Switch,aerospace_badge:switch_JS202011SCQN
+U1,ATtiny85-20SU,Microcontroller,Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm
