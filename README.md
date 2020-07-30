@@ -13,7 +13,7 @@ You can even use this airplane shaped badge as an anetenna to locate real airpla
 
 Instructions for assembing a kit can be found in the Document folder.
     
-    - [Tindie Instructions](Documents/Tindie Instructions.pdf)
+    - [Tindie Instructions](https://github.com/daneallen/avBadge_2020/blob/master/Documents/Tindie%20Instructions.pdf)
 
 
 ## Arduino Programming
