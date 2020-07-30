@@ -9,6 +9,12 @@ You can even use this airplane shaped badge as an anetenna to locate real airpla
 
 <img src="/Images/aerospace_Badge_day.GIF" width="300" /> <img src="/Images/aerospace_Badge_night.GIF" width="300" />
 
+## Kit Assembly
+
+Instructions for assembing a kit can be found in the Document folder.
+    
+    - [Tindie Instructions](Documents/Tindie Instructions.pdf)
+
 
 ## Arduino Programming
 Using the Arduino IDE Add the correct Boards Manager URL:
