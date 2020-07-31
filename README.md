@@ -44,3 +44,8 @@ $ sudo chmod a+rw /dev/ttyACM0
 
 ## Hardware
 The ATtiny85 is programmed with the [Sparkfun Tiny AVR Programmer](https://www.sparkfun.com/products/11801) using the [SparkFun ISP Pogo Adapter](https://www.sparkfun.com/products/11591)
+
+
+## Lanyard Modification
+Check out the .stl files that you can print to more easily turn the badge into a wearable lanyard.
+<img src="sma lanyard/20200730_210854.jpg" width="300">
