@@ -47,6 +47,6 @@ The ATtiny85 is programmed with the [Sparkfun Tiny AVR Programmer](https://www.s
 
 
 ## Lanyard Modification
-Check out the .stl files that you can print to more easily turn the badge into a wearable lanyard.
+Check out the .stl files in the /sma lanyard folder that you can print to more easily turn the badge into a wearable lanyard.
 
 <img src="sma lanyard/20200730_210854.jpg" width="300">
