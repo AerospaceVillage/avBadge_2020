@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "aerospace_badge-rescue")(type "KiCad")(uri "${KIPRJMOD}/aerospace_badge-rescue.kicad_sym")(options "")(descr ""))
+)
